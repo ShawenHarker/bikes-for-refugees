@@ -13,6 +13,26 @@ body {
 
 button {
 	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+	background-color: #ce5f31;
+	color: white;
+	border: 1px solid #ce5f31;
+}
+
+button:hover {
+	color: #ce5f31;
+	background-color: white;
+}
+
+/*This class change the setting of the volenteer button*/
+.vol {
+	color: #ce5f31;
+	background-color: white;
+}
+
+.vol:hover {
+	background-color: #ce5f31;
+	color: white;
+	border: 1px solid #ce5f31;
 }
 
 /*  Navigation */
