@@ -11,6 +11,28 @@ body {
 	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
 }
 
+/*  Navigation */
+.navbar-brand > img {
+	max-height: 40px;
+	width: auto;
+}
+
+.navbar-light .navbar-toggler {
+	border: 0;
+	right:  0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #292b2c;
+	font-weight: 600;
+	text-transform: uppercase;
+
+	/*  Challenge: can you make the navigation links orange on hover? */
+}
+
+/* Buttons */
+/* INSERT BUTTON STYLES HERE */
+
 button {
 	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
 	background-color: #ce5f31;
@@ -34,28 +56,6 @@ button:hover {
 	color: white;
 	border: 1px solid #ce5f31;
 }
-
-/*  Navigation */
-.navbar-brand > img {
-	max-height: 40px;
-	width: auto;
-}
-
-.navbar-light .navbar-toggler {
-	border: 0;
-	right:  0;
-}
-
-.navbar-light .navbar-nav .nav-link {
-	color: #292b2c;
-	font-weight: 600;
-	text-transform: uppercase;
-
-	/*  Challenge: can you make the navigation links orange on hover? */
-}
-
-/* Buttons */
-/* INSERT BUTTON STYLES HERE */
 
 
 /* Alert */
